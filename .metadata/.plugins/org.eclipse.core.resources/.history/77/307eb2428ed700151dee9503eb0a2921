@@ -1,0 +1,19 @@
+/**
+ *
+ */
+package project2
+
+/**
+ * @author jzhai001c
+ *
+ */
+object test1 {
+  def main(args: Array[String])
+  {
+    val mydata : String="sdfoasdf"
+    
+    
+    println (mydata)
+  }
+
+}

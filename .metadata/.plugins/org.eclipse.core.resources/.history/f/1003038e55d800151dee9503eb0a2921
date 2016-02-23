@@ -1,0 +1,18 @@
+import scala.io.Source
+
+object readwrite
+{
+   def main(args :Array[String])
+   {
+     //read something, replace all string of "asset" to "video", then save a new file
+     
+     val srcFileName="/home/user/jzhai001c/hql/assets.hql"
+     for (l<-Source.fromFile(srcFileName).getLines())
+     { 
+       println(l)
+     }
+     
+   }
+   
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;io1.scala&apos; to &apos;project2/src/(default package)&apos;&#x0A;- Original project: &apos;project1_learn&apos;&#x0A;- Destination element: &apos;project2/src/(default package)&apos;&#x0A;- Original element: &apos;io1.scala&apos;&#x0A;- Update references to refactored element" description="Move file" destination="=project2/src&lt;" element1="src/project1_learn/io1.scala" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1456080695956" units="0" version="1.0"/>
+</session>

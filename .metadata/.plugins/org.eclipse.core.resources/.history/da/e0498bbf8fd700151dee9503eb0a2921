@@ -1,0 +1,31 @@
+/**
+ *
+ */
+package project2
+
+/**
+ * @author jzhai001c
+ *
+ */
+object test1 {
+  def main(args: Array[String])
+  {
+    val x=100;
+    val y=100;
+    if(x!=y) 
+    {
+      println("x!=y")
+    }
+    else if (x>y)
+    {
+      println("x>y")
+    }
+    else
+    {
+      println("something else")
+    }
+    val z=x%y
+    println (z)
+  }
+
+}

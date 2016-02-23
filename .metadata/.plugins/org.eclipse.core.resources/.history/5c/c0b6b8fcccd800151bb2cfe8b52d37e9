@@ -1,0 +1,18 @@
+/**
+ *
+ */
+package project2
+
+/**
+ * @author jzhai001c
+ *
+ */
+object test2 
+{
+  def main(args: Array[String])
+  {
+    val name=readLine("what is your name")
+    println(name)
+  }
+
+}
