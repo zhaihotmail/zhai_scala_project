@@ -15,5 +15,6 @@ object test2
     println(args(0)+"secondone is"+args(1))
   }
   println ("current time is" +Calendar.getInstance().getTime())
+  //noted from Github.com
 
 }
