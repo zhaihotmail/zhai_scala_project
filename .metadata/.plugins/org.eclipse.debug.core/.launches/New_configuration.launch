@@ -7,7 +7,7 @@
 <listEntry value="4"/>
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="project2.test2"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="zhai&#10;wang"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="project2.test5"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="a&#10;m"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="project2"/>
 </launchConfiguration>
