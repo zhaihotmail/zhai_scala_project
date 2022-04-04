@@ -6,4 +6,4 @@ image_resource:
 
 run:
   path: /bin/sh
-  args: ["./myshell/go.sh"]
+  args: ["project2/myshell/go.sh"]
