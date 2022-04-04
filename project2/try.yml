@@ -4,9 +4,6 @@ image_resource:
   type: registry-image
   source: {repository: busybox}
 
-inputs:
-  - name: project2
-
 run:
   path: /bin/sh
   args: ["./myshell/go.sh"]
