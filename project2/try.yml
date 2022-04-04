@@ -9,4 +9,4 @@ inputs:
 
 run:
   path: /bin/sh
-  args: ["zhai-github-res/myshell/go.sh"]
+  args: [zhai-github-res/project2/myshell/go.sh]
