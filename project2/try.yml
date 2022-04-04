@@ -5,7 +5,7 @@ image_resource:
   source: {repository: busybox}
  
 inputs:
-  name: zhai-github-res
+  - name: zhai-github-res
 
 run:
   path: /bin/sh
