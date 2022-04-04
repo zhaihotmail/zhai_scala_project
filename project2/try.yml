@@ -3,7 +3,10 @@ platform: linux
 image_resource:
   type: registry-image
   source: {repository: busybox}
+ 
+inputs:
+  name: zhai-github-res
 
 run:
   path: /bin/sh
-  args: ["project2/myshell/go.sh"]
+  args: ["zhai-github-res/myshell/go.sh"]
