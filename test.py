@@ -37,3 +37,12 @@ f = open('somefile.txt', 'r')
 content = f.read()
 print(content)
 f.close()
+
+
+#do git commit
+os.system("git branch new-branch")
+os.system("git checkout new-branch")
+os.system("cat 'someworks' >a.txt")
+os.system("git add . ")
+os.system("git commit -m 'I added new file'")
+os.system("git push origin new-branch")
