@@ -16,6 +16,11 @@ obj=s3.Object("zhai1976","us_state/sjc.csv")
 ccs_str=obj.get()["Body"].read().decode("utf-8")
 print(ccs_str)
 
+directory = os.getcwd()
+
+print(directory)
+
+
 cmd="git clone https://github.com/zhaihotmail/looker-test.git"
 os.system(cmd)
 os.system("cd ./looker-test")
