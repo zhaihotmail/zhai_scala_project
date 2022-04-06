@@ -15,3 +15,12 @@ s3=session.resource("s3")
 obj=s3.Object("zhai1976","us_state/sjc.csv")
 ccs_str=obj.get()["Body"].read().decode("utf-8")
 print(ccs_str)
+
+cmd="git clone https://github.com/zhaihotmail/looker-test.git"
+os.system(cmd)
+os.system(cd looker-test)
+
+f = open('somefile.txt', 'r')
+content = f.read()
+print(content)
+f.close()
