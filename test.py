@@ -23,7 +23,7 @@ print("current dir="+directory)
 
 cmd="git clone https://github.com/zhaihotmail/looker-test.git"
 os.system(cmd)
-os.system("cd ./looker-test")
+os.chdir("./looker-test")
 
 
 
