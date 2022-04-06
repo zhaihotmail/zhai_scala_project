@@ -18,12 +18,20 @@ print(ccs_str)
 
 directory = os.getcwd()
 
-print(directory)
+print("current dir="+directory)
 
 
 cmd="git clone https://github.com/zhaihotmail/looker-test.git"
 os.system(cmd)
 os.system("cd ./looker-test")
+
+
+
+directory = os.getcwd()
+
+print("current dir after clone="+directory)
+
+
 
 f = open('somefile.txt', 'r')
 content = f.read()
