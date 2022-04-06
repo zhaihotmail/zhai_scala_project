@@ -47,5 +47,5 @@ os.system("git checkout new-branch")
 os.system("echo 'someworks' >a.txt")
 os.system("git add . ")
 os.system("git commit -m 'I added new file'")
-os.system("git remote set-url origin git@github.com:two00434/looker-test.git
+os.system("git remote set-url origin git@github.com:two00434/looker-test.git")
 os.system("git push origin new-branch")
