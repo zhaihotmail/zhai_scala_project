@@ -31,7 +31,7 @@ directory = os.getcwd()
 
 print("current dir after clone="+directory)
 
-
+os.listdir()
 
 f = open('somefile.txt', 'r')
 content = f.read()
