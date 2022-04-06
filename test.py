@@ -33,7 +33,7 @@ print("current dir after clone="+directory)
 
 print(os.listdir())
 
-f = open('./looker-test/somefile.txt', 'r')
+f = open('somefile.txt', 'r')
 content = f.read()
 print(content)
 f.close()
