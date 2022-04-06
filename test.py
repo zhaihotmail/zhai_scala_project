@@ -5,8 +5,8 @@ import time
 import os
 
 session = boto3.Session(
-    aws_access_key_id="AKIAVY7FBWM6ZVW6LFHP",
-    aws_secret_access_key="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",
+    aws_access_key_id="AKIAVY7FBWM6YHXQQIKZ",
+    aws_secret_access_key="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",
     region_name="us-east-2"
 )
 
