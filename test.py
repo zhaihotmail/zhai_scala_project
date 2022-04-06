@@ -18,7 +18,7 @@ print(ccs_str)
 
 cmd="git clone https://github.com/zhaihotmail/looker-test.git"
 os.system(cmd)
-os.system(cd looker-test)
+os.system("cd ./looker-test")
 
 f = open('somefile.txt', 'r')
 content = f.read()
