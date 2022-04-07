@@ -40,8 +40,8 @@ f.close()
 
 
 #do git commit
-os.system("git config user.email 'two00434@hotmail.com'")
-os.system("git config user.name two00434")
+os.system("git config user.email 'zhaizhongping@hotmail.com'")
+os.system("git config user.name 'zhaihotmail'")
 os.system("git branch new-branch")
 os.system("git checkout new-branch")
 os.system("echo 'someworks' >a.txt")
